@@ -13,10 +13,10 @@ class Tag(models.Model):
 class ToDoList(models.Model):
 
     status_choices = [
-            ("O", "OPEN"),
-            ("W", "WORKING"),
-            ("D", "DONE"),
-            ("v", "OVERDUE")
+            ("O", "Open"),
+            ("W", "Working"),
+            ("D", "Done"),
+            ("v", "Overdue")
     ]
 
     timestamp = models.DateTimeField(auto_now_add=True, editable=False)
