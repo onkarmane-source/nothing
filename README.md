@@ -1,6 +1,6 @@
-# ToDoList API
+# ToDoList
 This is a brief description of what this app does and how these apis work <br/>
-As specified, this is a ToDoList REST API<br/>
+As specified, this is a ToDoList<br/>
 
 To start the project, one needs to run the server first using the specified virtual environment.<br/>
 On Linux,<br/>
@@ -9,16 +9,10 @@ Enter following commands once you are in this directory<br/>
     source venv/bin/activate 
     pip install -r requirements.txt
 
-    in "/TODO/env/lib/python3.8/site-packages/taggit_serializer/serializers.py"
-    change line 6 to from "django.utils.translation import gettext_lazy as _"
-
     python manage.py runserver
     python manage.py createsuperuser
 </pre>
 Now the application server has started,<br/><br/>
-
-<h3>Every Functionality implemented in the code could have been implemented using various other methods. I have used methods which I felt would be appropriate</h3>
-To access anything in the api , one needs to be logged in otherwise it will raise Authentication errors.<br/><br/>
 
 <h4>To register using the API: - </h4><br/>
 
