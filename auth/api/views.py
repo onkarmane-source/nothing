@@ -43,4 +43,4 @@ class RegisterAPIView(generics.CreateAPIView):
 class LogoutAPIView(APIView):
     def post(self,request,*args,**kwargs):
         logout(request)
-        return Response({"Message":"Successfully Logged out"},status=200)
+        return Response({"Message":"Logged out Successfully"},status=200)
