@@ -35,7 +35,7 @@ class ToDoList(models.Model):
 
     def clean(self):
         if self.due_date<timezone.now().date():
-             raise ValidationError("Due Date can't be in the Past")
+             raise ValidationError("Due Date can't be in Past")
 
 
     def get_tags(self):
